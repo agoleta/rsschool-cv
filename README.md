@@ -2,4 +2,4 @@
 
 **RS School JavaScript/Front-end course:**
  
-[CV#1](https://github.com/agoleta/rsschool-cv/tree/gh-pages/cv.md)
+[CV#1](https://agoleta.github.io/rsschool-cv/cv)
