@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV (HALETA ANDREI) HTML</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="main-frame">
+        <header>
+            <table class="table-max">
+                <tr>
+                    <td style="width: 10%;">
+                        <img src="img/logo.jpg" alt="logo" style="border-radius: 100%; width: 100%;">
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <h1 style="text-align: left;">ANDREI HALETA (OLD SCHOOL)</h1>
+                        <br>
+                        <div class="address">Poland, Warszawa, 00-869, Towarowa 35-7</div>
+                        <div class="address">phone: +48 571-044-909</div>
+                        <div class="address"><a href="mailto:agoletaua@gmail.com">e-mail: agoletaua@gmail.com</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <nav>
+                <div class="menu">
+                    <ul class=".main-menu-ul">
+                        <li class="main-menu-li"><a href="#EDUCATION" class="main-menu-a">EDUCATION /</a></li>
+                        <li class="main-menu-li"><a href="#EXPERIENCE" class="main-menu-a">EXPERIENCE /</a></li>
+                        <li class="main-menu-li"><a href="#ADDS" class="main-menu-a">ADDS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br>
+        <main>
+            <div id="EDUCATION"></div>
+            <h2></h2>
+            <div class="education" p>STATE UNIVERSITY INFORMATICS & RADIOELECTRONICS (BSUIR), 2000</div>
+            <br>
+            <div class="description">Software technologies (POIT) Republic of Belarus, Minsk</div>
+            <br>
+            <div class="exp">1997 - 2004: VS / MFC/ ATL / ActiveX / ODBC / ADO</div>
+            <div class="exp">2004 - 2022: 1C / MS SQL</div>
+
+            <h2 id="EXPERIENCE"></h2>
+            <h3>BUSINESS-SYSTEMS</h3>
+            <br>
+            <div class="range">April 2004 - February 2022</div>
+            <div class="location">Republic of Belarus, Minsk</div>
+            <div class="skills">analysis, technical description, lead programming and support</div>
+            <div class="description">
+                Development, envolving and supporting economic management systems using 1C enterprise system
+                programming
+                interface:
+            </div>
+            <div class="description"><strong>ZapadTransNeftProduct (ZTNP)</strong> - subsidiary of TRANSNEFT (Russia).
+                Development
+                full
+                cycle software of
+                accounting for financial activities in Belarus.</div>
+            <div class="description"><strong>F4 logistics</strong> - 3pl operator and distributor of food products.
+                Development
+                tasks
+                of
+                order management,
+                transport picking, warehouse management (WMS), printing of documents and certificates, a
+                block
+                for
+                analyzing data on sales, costs and other economic indicators.</div>
+
+            <br>
+            <h3>VDI</h3>
+            <br>
+            <div class="range">December 2002 - April 2004</div>
+            <div class="location">Russia, Moscow</div>
+            <div class="skills">Task analysis, technical description and lead programming</div>
+            <div class="description">sofware development</div>
+
+            <br>
+            <h3>RES (Research Engineering Systems)</h3>
+            <br>
+            <div class="range">October 1999 - December 2002</div>
+            <div class="location">Republic of Belarus, Minsk</div>
+            <div class="skills">Junior programmer - Programmer</div>
+            <div class="description">Software for data acquisition, modeling in geology, drilling and completions,
+                stimulation,
+                reservoir,
+                oil production and economics.</div>
+            <div class="description">I took part in the development of the interface for managing well placement maps.
+                Also, I
+                developed
+                an
+                economic unit for calculating drilling costs.</div>
+            </h2>
+            <br>
+            <h2 id="ADDS">:-)</h2>
+            <div class="skills">English knowledge: A1-A2</div>
+            <br>
+            <div class="skills">Driving license</div>
+            <br>
+            <div class="skills">Code sample:</div>
+            <code lang="js" class="code">
+                function trns10to16(value) {<br>
+                <br>
+                &emsp; if (value &amp 0)<br>
+                &emsp;&emsp;   return '00';<br>
+                &emsp; if (value > 255)<br>
+                &emsp;&emsp;   return 'FF';<br>
+                <br>
+                &emsp; let result = '';<br>
+                &emsp; let arr = new Array();<br>
+                &emsp; let cur = value;<br>
+                &emsp; let mod = cur % 16;<br>
+                <br>
+                &emsp; while (cur !== 0) {<br>
+                &emsp;&emsp; arr.push(mod);<br>
+                &emsp;&emsp; cur = parseInt(String(cur / 16));<br>
+                &emsp;&emsp; mod = cur % 16;<br>
+                &emsp;}<br>
+                <br>
+                &emsp; let size = arr.length;<br>
+                &emsp; for (let i = 0; i &amp size; i++) {<br>
+                &emsp;&emsp; cur = arr.pop();<br>
+                &emsp;&emsp;&emsp; if (cur >= 10) {<br>
+                &emsp;&emsp;&emsp;&emsp; switch (cur) {<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; case 10:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'A';<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; break;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; case 11:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'B';<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; break;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; case 12:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'C';<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; break;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; case 13:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'D';<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; break;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; case 14:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'E';<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; break;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; case 15:<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'F';<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; break;<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp; }<br>
+                &emsp;&emsp;&emsp;&emsp; }<br>
+                &emsp;&emsp;&emsp;&emsp; else<br>
+                &emsp;&emsp;&emsp;&emsp; &emsp;result += String(cur);<br>
+                &emsp;&emsp;&emsp; }<br>
+                &emsp;&emsp; for (let i = result.length; i &amp 2; i++)<br>
+                &emsp;&emsp;&emsp; result = '0' + result;<br>
+                &emsp;&emsp; return result;<br>
+                &emsp; }<br>
+            <br>
+            function rgb(r, g, b){<br>
+            &emsp; return trns10to16(r) + trns10to16(g) + trns10to16(b);<br>
+            }<br>
+            </code>
+            <br>
+            <div class="phoema">To be, or not to be, that is the question:</div>
+            <div class="phoema">Whether 'tis nobler in the mind to suffer</div>
+            <div class="phoema">The slings and arrows of outrageous fortune,</div>
+            <div class="phoema">Or to take arms against a sea of troubles</div>
+            <div class="phoema">And by opposing end them. To die - to sleep,</div>
+            <div class="phoema">No more; and by a sleep to say we end</div>
+            <div class="phoema">The heart-ache and the thousand natural shocks</div>
+            <div class="phoema">That flesh is heir to: 'tis a consummation</div>
+            <div class="phoema">Devoutly to be wish'd. To die, to sleep...</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </main>
+        <footer>
+            <div class="footer-style">
+                <a href="https://github.com/agoleta">GitHub account</a>
+                <br>
+                <img src="https://rs.school/images/rs_school_js.svg" style="width: 10%;">
+                <br>
+                <a href="https://rs.school/js/">RSSchool JavaScript Front-end course, </a>
+                <span>2022 (C)</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

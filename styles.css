@@ -1,0 +1,114 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.main-frame {
+    margin-left: 10%;
+    width: 80%;
+    height: 100vh;
+    background-color:cornflowerblue;
+}
+
+main {
+    overflow: scroll;
+    height: 63vh;
+}
+
+.menu
+{
+    height: 4vh;
+    background-color: darkgoldenrod;
+}
+
+footer{
+    background-color: darkgoldenrod;
+}
+
+main::-webkit-scrollbar {
+    width: 0;
+}
+
+.table-max {
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+.main-menu-ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.main-menu-a {
+    text-decoration: none;  
+    background-color: darkgoldenrod;
+}
+
+.main-menu-li {
+    float: left;
+    margin-right: 0.5%;
+    font-size:small;
+    font-weight: bold;
+}
+
+h2{
+    color: darkblue;
+    font-size: large;
+    font-weight: bolder;
+    margin: 2%;
+}
+
+h3{
+    color: darkblue;
+    font-weight: bold;
+}
+
+.footer-style
+{
+    font-size: smaller;
+}
+
+.range{
+    font-size: smaller;
+    font-style: italic;
+    padding: 1%;
+}
+
+.location{
+    font-size: smaller;
+}
+
+.skills{
+    font-size: smaller;
+}
+
+.description{
+    font-size: smaller;
+}
+
+.phoema{
+    font-size: smaller;
+    font-style: oblique;
+}
+
+.education{
+    color: darkblue;
+    font-size: larger;
+    font-weight: bolder;  
+}
+
+.exp{
+    font-size: small;
+}
+
+.address
+{
+    font-size: xx-small;
+    font-style: italic;
+}
+
+.code
+{
+    font-size: small;
+    color:darkblue;
+}
