@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,35 +13,38 @@
     <div class="main-frame">
         <header>
             <table class="table-max">
-                <tr>
-                    <td style="width: 10%;">
-                        <img src="img/logo.jpg" alt="logo" style="border-radius: 100%; width: 100%;">
-                    </td>
-                    <td style="vertical-align: middle;">
-                        <h1 style="text-align: left;">ANDREI HALETA (OLD SCHOOL)</h1>
-                        <br>
-                        <div class="address">Poland, Warszawa, 00-869, Towarowa 35-7</div>
-                        <div class="address">phone: +48 571-044-909</div>
-                        <div class="address"><a href="mailto:agoletaua@gmail.com">e-mail: agoletaua@gmail.com</a>
-                        </div>
-                    </td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td style="width: 10%;">
+                            <img src="img/logo.jpg" alt="logo" style="border-radius: 100%; width: 100%;">
+                        </td>
+                        <td style="vertical-align: middle;">
+                            <h1 style="text-align: left; font-size: x-large;">ANDREI HALETA (OLD SCHOOL)</h1>
+                            <br>
+                            <div style="font-size: medium;">Poland, Warszawa, 00-869, Towarowa 35-7</div>
+                            <div style="font-size: medium;">phone: +48 571-044-909</div>
+                            <div style="font-size: medium;"><a href="mailto:agoletaua@gmail.com">e-mail:
+                                    agoletaua@gmail.com</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
             <nav>
                 <div class="menu">
                     <ul class=".main-menu-ul">
-                        <li class="main-menu-li"><a href="#EDUCATION" class="main-menu-a">EDUCATION /</a></li>
-                        <li class="main-menu-li"><a href="#EXPERIENCE" class="main-menu-a">EXPERIENCE /</a></li>
                         <li class="main-menu-li"><a href="#ADDS" class="main-menu-a">ADDS</a></li>
+                        <li class="main-menu-li"><a href="#EXPERIENCE" class="main-menu-a">EXPERIENCE|</a></li>
+                        <li class="main-menu-li"><a href="#EDUCATION" class="main-menu-a">EDUCATION|</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <br>
+
         <main>
             <div id="EDUCATION"></div>
             <h2></h2>
-            <div class="education" p>STATE UNIVERSITY INFORMATICS & RADIOELECTRONICS (BSUIR), 2000</div>
+            <div class="education" p="">STATE UNIVERSITY INFORMATICS &amp; RADIOELECTRONICS (BSUIR), 2000</div>
             <br>
             <div class="description">Software technologies (POIT) Republic of Belarus, Minsk</div>
             <br>
@@ -98,7 +100,7 @@
                 developed
                 an
                 economic unit for calculating drilling costs.</div>
-            </h2>
+
             <br>
             <h2 id="ADDS">:-)</h2>
             <div class="skills">English knowledge: A1-A2</div>
@@ -109,9 +111,9 @@
             <code lang="js" class="code">
                 function trns10to16(value) {<br>
                 <br>
-                &emsp; if (value &amp 0)<br>
+                &emsp; if (value &amp; 0)<br>
                 &emsp;&emsp;   return '00';<br>
-                &emsp; if (value > 255)<br>
+                &emsp; if (value &gt; 255)<br>
                 &emsp;&emsp;   return 'FF';<br>
                 <br>
                 &emsp; let result = '';<br>
@@ -126,9 +128,9 @@
                 &emsp;}<br>
                 <br>
                 &emsp; let size = arr.length;<br>
-                &emsp; for (let i = 0; i &amp size; i++) {<br>
+                &emsp; for (let i = 0; i &amp; size; i++) {<br>
                 &emsp;&emsp; cur = arr.pop();<br>
-                &emsp;&emsp;&emsp; if (cur >= 10) {<br>
+                &emsp;&emsp;&emsp; if (cur &gt;= 10) {<br>
                 &emsp;&emsp;&emsp;&emsp; switch (cur) {<br>
                 &emsp;&emsp;&emsp;&emsp;&emsp; case 10:<br>
                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; result += 'A';<br>
@@ -153,7 +155,7 @@
                 &emsp;&emsp;&emsp;&emsp; else<br>
                 &emsp;&emsp;&emsp;&emsp; &emsp;result += String(cur);<br>
                 &emsp;&emsp;&emsp; }<br>
-                &emsp;&emsp; for (let i = result.length; i &amp 2; i++)<br>
+                &emsp;&emsp; for (let i = result.length; i &amp; 2; i++)<br>
                 &emsp;&emsp;&emsp; result = '0' + result;<br>
                 &emsp;&emsp; return result;<br>
                 &emsp; }<br>
@@ -172,11 +174,8 @@
             <div class="phoema">The heart-ache and the thousand natural shocks</div>
             <div class="phoema">That flesh is heir to: 'tis a consummation</div>
             <div class="phoema">Devoutly to be wish'd. To die, to sleep...</div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+
+
         </main>
         <footer>
             <div class="footer-style">
@@ -189,6 +188,8 @@
             </div>
         </footer>
     </div>
+
+
 </body>
 
 </html>
