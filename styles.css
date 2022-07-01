@@ -10,7 +10,7 @@
 
 main {
     overflow: scroll;
-    height: 58vh;
+    height: 52vh;
     background-color:cornflowerblue;
 }
 
@@ -116,4 +116,9 @@ h3{
 
 .code{
     font-weight: 800;
+}
+
+.footer-style
+{
+    font-size: small;
 }
