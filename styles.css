@@ -10,7 +10,7 @@
 
 main {
     overflow: scroll;
-    height: 53vh;
+    height: 56vh;
     background-color:cornflowerblue;
 }
 
@@ -93,7 +93,7 @@ h3{
 
 .education{
     color: darkblue;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;  
 }
 
