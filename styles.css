@@ -67,29 +67,29 @@ h3{
 
 .footer-style
 {
-    font-size: smaller;
+    font-size: high;
 }
 
 .range{
-    font-size: smaller;
+    font-size: high;
     font-style: italic;
     padding: 1%;
 }
 
 .location{
-    font-size: smaller;
+    font-size: high;
 }
 
 .skills{
-    font-size: smaller;
+    font-size: high;
 }
 
 .description{
-    font-size: smaller;
+    font-size: high;
 }
 
 .phoema{
-    font-size: smaller;
+    font-size: high;
     font-style: oblique;
 }
 
@@ -113,4 +113,8 @@ h3{
 {
     font-size: small;
     color:darkblue;
+}
+
+.code{
+    font-weight: 800;
 }
