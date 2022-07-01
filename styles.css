@@ -10,13 +10,13 @@
 
 main {
     overflow: scroll;
-    height: 64vh;
+    height: 59vh;
     background-color:cornflowerblue;
 }
 
 .menu
 {
-    height: 4vh;
+    height: 5vh;
     background-color: darkgoldenrod;
 }
 
@@ -100,7 +100,7 @@ h3{
 }
 
 .exp{
-    font-size: small;
+    font-size: large;
 }
 
 .address
