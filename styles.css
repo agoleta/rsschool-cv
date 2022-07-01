@@ -10,7 +10,7 @@
 
 main {
     overflow: scroll;
-    height: 59vh;
+    height: 58vh;
     background-color:cornflowerblue;
 }
 
@@ -67,29 +67,28 @@ h3{
 
 .footer-style
 {
-    font-size: high;
+    font-size: large;
 }
 
 .range{
-    font-size: high;
+    font-size: large;
     font-style: italic;
     padding: 1%;
 }
 
 .location{
-    font-size: high;
+    font-size: large;
 }
 
 .skills{
-    font-size: high;
+    font-size: large;
 }
 
 .description{
-    font-size: high;
+    font-size: large;
 }
 
 .phoema{
-    font-size: high;
     font-style: oblique;
 }
 
