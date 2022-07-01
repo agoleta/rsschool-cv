@@ -16,7 +16,7 @@ main {
 
 .menu
 {
-    height: 5vh;
+    height: 4vh;
     background-color: darkgoldenrod;
 }
 
@@ -35,7 +35,6 @@ main::-webkit-scrollbar {
 
 .main-menu-ul {
     list-style: none;
-    margin-top: 1%;
     padding-left: 0;
 }
 
@@ -120,5 +119,5 @@ h3{
 
 .footer-style
 {
-    font-size: small;
+    font-size: x-small;
 }
